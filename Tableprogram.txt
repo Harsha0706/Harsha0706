@@ -1,0 +1,20 @@
+package practice;
+import java.util.Scanner;
+
+public class Table {
+	public static void main(String[] args) {
+		int n,k;
+		k=1;
+		System.out.println("enter the table which you want ");
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		while(k<=20)
+		{
+			System.out.println(n+"*"+k+"="+(n*k));
+			k++;
+		}
+     
+	
+
+}
+}

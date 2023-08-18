@@ -1,0 +1,20 @@
+package Abc;
+
+public class Hdfc {
+
+	public static void main(String[] args) {
+		// print the current balence and intrest
+		int bal,dep,trans,obal,Int,tbal;
+		bal=25000;
+		dep=15000;
+		trans=11000;
+		obal=(bal+dep)-trans;
+		System.out.println("obal is "+obal);
+		Int=obal*12*2/100;
+		System.out.println("Int is "+Int);
+		tbal=obal+Int;
+		System.out.println("total balence in the account is "+tbal);
+
+	}
+
+}

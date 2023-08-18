@@ -1,0 +1,25 @@
+package Abc;
+import java.util.Scanner;
+
+public class Int {
+
+	public static void main(String[] args) {
+		// To calculate balence,intrest of the hdfc account
+		int bal,dep,trans,obal,Int,tbal;
+		System.out.println(" your balence ");
+		Scanner sc=new Scanner(System.in);
+		bal=sc.nextInt();
+		dep=sc.nextInt();
+		trans=sc.nextInt();
+		//obal=sc.nextInt();
+		obal=(bal+dep)-trans;
+		System.out.println("original balence is "+obal);
+		Int=sc.nextInt();
+		//tbal=sc.nextInt();
+		Int=obal*12*2/100;
+        System.out.println("intrest is "+Int);
+        tbal=obal+Int;
+        System.out.println("Total balence is "+tbal);
+	}
+
+}

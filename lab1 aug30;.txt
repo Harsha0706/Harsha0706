@@ -1,0 +1,28 @@
+package aug30;
+
+class Stu{
+		int sid;
+		String sname;
+	    double marks;
+		void input(int x,String y,double z)
+		{
+			sid=x;
+			sname=y;
+			marks=z;
+		}
+		void output()
+		{
+			System.out.println(sid+" "+sname+" "+marks);
+		}
+	}
+		
+		
+	public class Ram{
+		public static void main(String[] args) {
+			Stu r1=new Stu();
+			r1.input(23, "cjydj", 4676.9);
+			r1.output();
+
+		}
+
+	}

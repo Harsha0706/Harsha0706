@@ -1,0 +1,37 @@
+package aug30;
+class Bankcustomer{
+	int acno;
+	String atype;
+	double amt;
+	Bankcustomer()
+	{
+		acno=453612346;
+		atype="Saving";
+		amt=536128.2;
+	}
+	Bankcustomer(int x,String y,double z)
+	{
+		acno=x;
+		atype=y;
+		amt=z;
+	}
+	void Harsha()
+	{
+		System.out.println(acno+" "+atype+" "+amt);
+	}
+	
+}
+
+public class Assig32 {
+	
+
+	public static void main(String[] args) {
+		Bankcustomer a= new Bankcustomer();
+		Bankcustomer a1= new Bankcustomer(1231,"hsgdyi",3567);
+        a.Harsha();
+        a1.Harsha();
+
+	}
+
+}
+

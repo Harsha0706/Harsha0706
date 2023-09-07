@@ -1,0 +1,16 @@
+public class String1
+{
+	public static void main(String[] args) {
+	    //String
+	    String s=new String("RAM");
+	    System.out.println(s.concat("kumar"));
+	    System.out.println(s.charAt(1));
+	    System.out.println(s.substring(0,2));
+	    System.out.println(s.replace("RAM","SAI"));
+	    System.out.println(s.indexOf(2));
+	    System.out.println(s.startsWith("R"));
+	    System.out.println(s.endsWith("M"));
+	    System.out.println(s.equals("RAM"));
+	    
+	}
+}

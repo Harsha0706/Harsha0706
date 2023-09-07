@@ -1,0 +1,11 @@
+public class Ram2
+{
+	public static void main(String[] args) {
+		StringBuffer h=new StringBuffer("RADHA");
+		System.out.println(h.reverse());
+		System.out.println(h.delete(1,3));
+		System.out.println(h.append("RAM"));
+		System.out.println(h.insert(2,"JAI"));
+		System.out.println(h.length());
+	}
+}

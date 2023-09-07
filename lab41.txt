@@ -1,0 +1,28 @@
+class Harsha{
+    int y;
+    Harsha(int x)
+    {
+        y=x;
+    }
+    public String toString()
+    {
+        return "y";
+    }
+}
+
+
+
+public class Ram2
+{
+	public static void main(String[] args) {
+		Harsha h=new Harsha(22);
+		Harsha h1=h;
+		System.out.println(h.equals(h1));
+		System.out.println(h==h1);
+		System.out.println(h.hashCode());
+		System.out.println(h.toString());
+		System.out.println(h.getClass());
+		
+		
+	}
+}
